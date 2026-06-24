@@ -1,6 +1,6 @@
+// strictly increasing order allowed
 import java.util.ArrayList;
 import java.util.HashSet;
-// strictly increasing order allowed
 public class backtrackingII {
      static void inc(int[] a,int i,ArrayList<Integer> list,int prev){
       if(i == a.length){
